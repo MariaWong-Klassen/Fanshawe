@@ -5,46 +5,16 @@
 
 	<link rel="stylesheet" href="form_style.css">
 	
-	<style>
-	body {
-		background-color: black;
-	}
-	h1 {
-		color: purple;
-		font-family: 2.0em, calibri;
-	}
-	h2 {
-		color: yellow;
-		font: calibri;
-		font-size: 2.0em;
-	}
-	p {
-		color: white;
-	}
-	.status {
-	    padding: 5px;
-	    margin: 5px;
-	    border-width: 1px;
-	    border-style: solid;
-	}
-
-	.error {
-	    color: white;
-	    border-color: none;
-	}
-
-	.information {
-	    color: white;
-	    border-color: none;
-	}
-	</style>	
-
 </head>
 
 <body>
-
+	
 	<h1>Soccer Player Registration Form</h1>
+	<p>Please have form completed by: May 31, 2019</P>
+	<p>1</p>
 	<h2>Summer 2019</h2>
+	<p>Season to start June 15, 2019</p>
+	<p>all</p>
 		<form>
 
 			<p class="status information">
@@ -59,7 +29,7 @@
 			</label>
 			</p>
 
-			<p>
+			<p class="status information">
 			<label><b>Email</b>
 			<input type="email" name="email_address">
 			</label>
@@ -67,13 +37,13 @@
 
 			<fieldset>
 			<legend>What is your preferred position?</legend>
-			<p><label> <input type="radio" name="position" required value="F"> Forward </label></p>
-			<p><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
-			<p><label> <input type="radio" name="position" required value="D"> Defense </label></p>
-			<p><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
+			<p class="green"><label> <input type="radio" name="position" required value="F"> Forward </label></p>
+			<p class="green"><label> <input type="radio" name="position" required value="M"> Midfield </label></p>
+			<p class="green"><label> <input type="radio" name="position" required value="D"> Defense </label></p>
+			<p class="green"><label> <input type="radio" name="position" required value="GK"> Goal Keeper</label></p>
 			</fieldset>
 
-			<p>
+			<p class="yellow">
 			<label>Preferred Start Date
 			<input type="date" name="pickup_time" required>
 			</label>

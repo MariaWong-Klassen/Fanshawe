@@ -1,3 +1,45 @@
+	body {
+		background-color: pink;
+	}
+	h1 + p{
+		color: purple;
+		font-family: 2.0em, calibri;
+		font-style: italic;
+	}
+	
+	h2 ~ p{
+		font: calibri;
+		font-style: italic;
+	}
+	
+	.status {
+	    padding: 5px;
+	    margin: 5px;
+	    border-width: 1px;
+	    border-style: solid;
+	}
+
+	.error {
+	    color: white;
+	    border-color: none;
+	}
+
+	.information b{
+	    color: red;
+	    border-color: none;
+	}
+	fieldset legend {
+		color: blue;
+	}
+	
+	p.green > label {
+		color: green;
+	}
+
+	p.yellow > label {
+		color: yellow;
+	}
+	
 
 @media screen and (max-width: 700px) and (min-width: 400px) {
 *,
